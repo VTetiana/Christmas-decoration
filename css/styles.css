@@ -19,6 +19,7 @@ font-family: 'Roboto', sans-serif;*/
 .background {
   width: 100%;
   margin-top: 87px;
+  margin-bottom: 60px;
   position: relative;
   text-align: center;
   top: 0;
@@ -91,6 +92,16 @@ font-family: 'Roboto', sans-serif;*/
   }
 }
 
-.container div {
-  margin-top: 30px;
+.container img {
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.container h4 {
+  color: #272142;
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 30px;
 }
