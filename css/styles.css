@@ -1,19 +1,24 @@
-/* font-family: 'Nunito', sans-serif;
-font-family: 'Roboto', sans-serif;*/
+root {
+  --main-color: #272142;
+  --nunito-font: "Nunito", sans-serif;
+  --roboto-font: "Roboto", sans-serif;
+}
 
 .centered h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--nunito-font);
   font-weight: 700;
   text-align: center;
   font-size: 55px;
   font-style: normal;
+  color: var(--main-color);
 }
 .centered h3 {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
+  font-family: var(--nunito-font);
+  font-weight: 700;
   text-align: center;
   font-size: 24px;
   font-style: normal;
+  color: var(--main-color);
 }
 
 .background {
@@ -41,12 +46,13 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .container h4 {
-  color: #272142;
-  font-family: Nunito;
+  color: var(--main-color);
+  font-family: var(--nunito-font);
   font-size: 26px;
   font-style: normal;
   line-height: normal;
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 @media (min-width: 1201px) {
