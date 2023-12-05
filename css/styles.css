@@ -218,3 +218,12 @@ h1 {
   line-height: normal;
   text-align: center;
 }
+
+.fa-square-facebook {
+  color: var(--main-color);
+  font-family: Font Awesome 5 Brands;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
