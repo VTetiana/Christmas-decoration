@@ -43,8 +43,11 @@ h1 {
 }
 
 .container img {
-  border-radius: 12px;
   margin-bottom: 10px;
+}
+
+img {
+  border-radius: 12px;
 }
 
 .container h4 {
@@ -213,6 +216,8 @@ h1 {
 .favourites {
   margin-top: 60px;
   margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: var(--main-color);
   font-family: var(--nunito-font);
   font-size: 36px;
@@ -259,4 +264,16 @@ h1 {
     line-height: 30px;
   }
 }
-@media (max-width: 767px);
+@media (max-width: 400px) {
+  .about-heading {
+    margin: 40px;
+    font-size: 40px;
+  }
+  .favourites {
+    font-size: 25px;
+  }
+  .about-section-content h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+}
