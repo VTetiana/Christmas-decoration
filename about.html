@@ -30,45 +30,107 @@
   </head>
   <body>
     <h1 class="text-center about-heading">About Me</h1>
-    <div class="container about-section">
-      <div class="row justify-content-center">
-        <div class="col-6 ">
-          <div class="my-photo d-flex justify-content-end ps-3 pe-3">
-            <img
-            src="images/Personal_photo_small.png"
-            alt=""
-            class=" img-fluid"
-          /></div>
+    <div class="big-screen d-none d-md-block">
+      <div class="container about-section">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="my-photo d-flex justify-content-end ps-3 pe-3">
+              <img
+                src="images/Personal_photo_small.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-section-content">
+              <h2>Tetiana Volkovets</h2>
+              <p>
+                Some text about me, QA engineer fond of front-end, enjoy
+                christmas and new year magic, like all those atributes, bla, bla
+                bla
+              </p>
+              <div class="row">
+                <div class="col-4"><h4>Follow me:</h4></div>
+
+                <div class="col-1">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </div>
+                <div class="col-1"><i class="fa-brands fa-instagram"></i></div>
+                <div class="col-1"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="col-5"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-6">
-          <div class="about-section-content ps-5 pe-5">
-            <h2>Tetiana Volkovets</h2>
-          <p>
-            Some text about me, QA engineer fond of front-end, enjoy christmas
-            and new year magic, like all those atributes, bla, bla bla
-          </p>
+        <h3 class="text-center favourites">Favourite Christmas wallpapers</h3>
+        <div class="container wallpapers">
           <div class="row">
-            <div class="col-3"><h4>Follow me:</h4></div>
-          
-        <div class="col-1"><i class="fa-brands fa-square-facebook"></i></div>
-          <div class="col-1"><i class="fa-brands fa-instagram"></i></div>
-         <div class="col-1"><i class="fa-brands fa-linkedin"></i></div>
-         <div class="col-6"> </div></div>
-        
+            <div class="col">
+              <img src="images/xmas_toys.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col">
+              <img
+                src="images/new-year-cookies-sm.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="images/snow-decoration-balls_sm.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <h3 class="text-center favourites">Favourite Christmas wallpapers</h3>
-     <div class="container wallpapers">
-      <div class="row">
-        <div class="col">
-          <img src="images/xmas_toys.png" alt="" class="img-fluid">
+
+    <div class="big-screen d-block d-md-none">
+      <div class="about-section">
+        <div class="my-photo text-center ms-5 me-5">
+          <img src="images/Personal_photo_small.png" alt="" class="img-fluid" />
         </div>
-        <div class="col">
-          <img src="images/new-year-cookies-sm.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="about-section-content text-center">
+        <h2>Tetiana Volkovets</h2>
+        <p class="ps-5 pe-5">
+          Some text about me, QA engineer fond of front-end, enjoy christmas and
+          new year magic, like all those atributes, bla, bla bla
+        </p>
+        <div class="container">
+          <div class="row ms-2 me-2">
+            <div class="col-4"><h4>Follow me:</h4></div>
+
+            <div class="col-1">
+              <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <div class="col-1"><i class="fa-brands fa-instagram"></i></div>
+            <div class="col-1"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="col-5"></div>
+          </div>
         </div>
-        <div class="col">
-          <img src="images/snow-decoration-balls_sm.png" alt="" class="img-fluid">
-        </div>
+      </div>
+
+      <h3 class="text-center favourites">Favourite Christmas wallpapers</h3>
+      <div class="wallpapers text-center ms-5 me-5">
+        <img src="images/xmas_toys.png" alt="" class="img-fluid mb-3" />
+
+        <img
+          src="images/new-year-cookies-sm.png"
+          alt=""
+          class="img-fluid mb-3"
+        />
+
+        <img
+          src="images/snow-decoration-balls_sm.png"
+          alt=""
+          class="img-fluid mb-3"
+        />
+      </div>
+    </div>
   </body>
 </html>
