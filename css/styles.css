@@ -1,5 +1,6 @@
 :root {
   --main-color: #272142;
+  --darkviolet: #662eed;
   --nunito-font: "Nunito", sans-serif;
   --roboto-font: "Roboto", sans-serif;
 }
@@ -279,7 +280,7 @@ img {
     line-height: 30px;
   }
 }
-.content-list h4,
+.content-list a,
 i {
   color: var(--main-color);
   font-size: 18px;
@@ -287,6 +288,12 @@ i {
   line-height: normal;
   margin-left: 100px;
 }
+
+a:hover {
+  color: var(--darkviolet);
+  text-decoration: none;
+}
+
 .categories {
   color: var(--main-color);
   font-size: 36px;
