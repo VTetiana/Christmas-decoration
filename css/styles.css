@@ -1,6 +1,7 @@
 :root {
   --main-color: #272142;
   --darkviolet: #662eed;
+  --lightgray: #f9f7fe;
   --nunito-font: "Nunito", sans-serif;
   --roboto-font: "Roboto", sans-serif;
 }
@@ -302,4 +303,40 @@ a:hover {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 15px;
+}
+
+body {
+  position: relative;
+}
+
+.scroll-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+/* to hide the button when page first loaded*/
+.scroll-container:before {
+  content: "";
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+/* fixed to right bottom of page*/
+#scroll {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#scroll {
+  padding: 10px;
+  background-color: var(--lightgray);
+  color: var(--nunito-font);
+
+  border-radius: 12px;
+  text-decoration: none;
 }
