@@ -36,7 +36,7 @@ h1 {
 
 .background {
   width: 100%;
-  margin-top: 87px;
+  margin-top: 80px;
   margin-bottom: 60px;
   position: relative;
   text-align: center;
@@ -94,9 +94,6 @@ img {
   .container a {
     font-size: 22px;
   }
-  .background {
-    margin-top: 70px;
-  }
 }
 @media (max-width: 1000px) {
   .centered h1 {
@@ -107,9 +104,6 @@ img {
   }
   .container a {
     font-size: 20px;
-  }
-  .background {
-    margin-top: 60px;
   }
 }
 @media (max-width: 800px) {
@@ -122,9 +116,6 @@ img {
   .container a {
     font-size: 18px;
   }
-  .background {
-    margin-top: 50px;
-  }
 }
 @media (max-width: 700px) {
   .centered h1 {
@@ -132,10 +123,6 @@ img {
   }
   .centered h3 {
     font-size: 14px;
-  }
-
-  .background {
-    margin-top: 40px;
   }
 }
 
@@ -151,7 +138,6 @@ img {
     margin-bottom: 20px;
   }
   .background {
-    margin-top: 30px;
     margin-bottom: 40px;
   }
 }
@@ -166,7 +152,6 @@ img {
     font-size: 14px;
   }
   .background {
-    margin-top: 25px;
     margin-bottom: 35px;
   }
 }
