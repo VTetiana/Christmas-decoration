@@ -225,19 +225,19 @@ img {
   text-align: center;
 }
 @media (max-width: 1200px) {
-  .about-section-content h2 {
+  /* .about-section-content h2 {
     font-size: 60px;
     margin-top: 40px;
-  }
+  }*/
   .favourites {
     margin-top: 60px;
   }
 }
 @media (max-width: 992px) {
-  .about-heading {
+  /*.about-heading {
     margin: 60px;
     font-size: 60px;
-  }
+  }*/
   .about-section-content h2 {
     font-size: 30px;
     margin-top: 20px;
@@ -256,10 +256,10 @@ img {
   }
 }
 @media (max-width: 400px) {
-  .about-heading {
+  /* .about-heading {
     margin: 40px;
     font-size: 40px;
-  }
+  }*/
   .favourites {
     font-size: 25px;
   }
