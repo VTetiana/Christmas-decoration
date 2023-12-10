@@ -376,6 +376,9 @@ body {
     margin-top: 20px;
     text-align: center;
   }
+  .about-section-content {
+    text-align: center;
+  }
 }
 
 .active {
@@ -405,9 +408,10 @@ footer h3 {
   color: var(--main-color);
   padding-right: 10px;
   padding-left: 10px;
+  font-size: 16px;
 }
 
-footer a:hover {
+.social-links a:hover {
   text-decoration: none;
   color: var(--darkviolet);
 }
