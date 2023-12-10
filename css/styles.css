@@ -381,3 +381,33 @@ body {
 .active {
   color: var(--darkviolet) !important;
 }
+
+footer {
+  margin-top: 80px;
+  padding: 20px 80px;
+  background-color: var(--lightgray);
+  color: var(--main-color);
+}
+
+footer h3 {
+  font-size: 20px;
+}
+
+.rights-reserved {
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(--main-color);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: var(--darkviolet);
+}
